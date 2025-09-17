@@ -1,0 +1,16 @@
+.messageContent {
+  word-break: break-word;
+}
+
+.messageTime {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 5px;
+  align-self: flex-end;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}

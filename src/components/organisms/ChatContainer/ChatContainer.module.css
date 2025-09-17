@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: 100vh;
+    max-width: 100%;
+    border-radius: 0;
+  }
+}

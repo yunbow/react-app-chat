@@ -1,0 +1,21 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+  border-bottom-right-radius: 5px;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #e5e5ea;
+  border-bottom-left-radius: 5px;
+}
